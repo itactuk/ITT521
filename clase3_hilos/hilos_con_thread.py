@@ -13,10 +13,9 @@ for i in range(20):
 def procesar():
     data = x.get()
     time.sleep(2)  # simulando trabajo
-    candado.acquire()
-    print(f"Soy el hilo {threading.current_thread().name} "
+    with candado:
+        print(f"Soy el hilo {threading.current_thread().name} "
           f"y tengo la data {data}")
-    candado.release()
     x.task_done()
 
 for i in range(20):
