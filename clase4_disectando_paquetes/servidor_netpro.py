@@ -1,7 +1,7 @@
 import socket
 
 host = ""
-puerto = 2222
+puerto = 2224
 
 try:
     s = socket.socket()
