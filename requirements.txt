@@ -1,2 +1,6 @@
 requests
 scapy==2.4.0
+ping3
+ntplib
+pysftp
+netmiko
