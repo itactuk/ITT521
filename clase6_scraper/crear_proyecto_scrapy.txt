@@ -1,0 +1,4 @@
+# Instalar scrapy
+pip install scrapy
+# crear proyecto. Esto creara archivos
+scrapy startproject ejemplo_scrapy

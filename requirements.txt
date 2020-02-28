@@ -4,3 +4,4 @@ ping3
 ntplib
 pysftp
 netmiko
+scrapy
