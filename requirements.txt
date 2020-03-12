@@ -5,3 +5,4 @@ ntplib
 pysftp
 netmiko
 scrapy
+paho-mqtt
