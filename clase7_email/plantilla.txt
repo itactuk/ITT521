@@ -1,0 +1,5 @@
+Hola estimado $NOMBRE_PERSONA,
+
+Gracias por enviarme esta prueba
+
+https://docs.python.org/2.4/lib/node109.html
